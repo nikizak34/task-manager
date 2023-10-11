@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "./https://nikizak34.github.io/task-manager/static/css/main.fa7e58d4.css",
-    "main.js": "./https://nikizak34.github.io/task-manager/static/js/main.966ece71.js",
-    "index.html": "./https://nikizak34.github.io/task-manager/index.html",
-    "main.fa7e58d4.css.map": "./https://nikizak34.github.io/task-manager/static/css/main.fa7e58d4.css.map",
-    "main.966ece71.js.map": "./https://nikizak34.github.io/task-manager/static/js/main.966ece71.js.map"
+    "main.css": "/task-manager/static/css/main.fa7e58d4.css",
+    "main.js": "/task-manager/static/js/main.97c0b0b9.js",
+    "index.html": "/task-manager/index.html",
+    "main.fa7e58d4.css.map": "/task-manager/static/css/main.fa7e58d4.css.map",
+    "main.97c0b0b9.js.map": "/task-manager/static/js/main.97c0b0b9.js.map"
   },
   "entrypoints": [
     "static/css/main.fa7e58d4.css",
-    "static/js/main.966ece71.js"
+    "static/js/main.97c0b0b9.js"
   ]
 }
