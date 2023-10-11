@@ -23,15 +23,10 @@ export const Login = () => {
         <form onSubmit={formik.handleSubmit}>
           <FormControl>
             <FormLabel>
-              <p>
-                To log in get registered{" "}
-                <a href={"https://social-network.samuraijs.com/"} target={"_blank"} rel="noreferrer">
-                  here
-                </a>
-              </p>
-              <p>or use common test account credentials:</p>
-              <p> Email: nikita2000.16.11@gmail.com</p>
-              <p>Password: terranozavr35_7</p>
+
+              <p>Use common test account credentials:</p>
+              <p> Email:free@samuraijs.com</p>
+              <p>Password: free</p>
             </FormLabel>
             <FormGroup>
               <TextField label="Email" margin="normal" {...formik.getFieldProps("email")} />
@@ -42,7 +37,7 @@ export const Login = () => {
                 label={"Remember me"}
                 control={<Checkbox {...formik.getFieldProps("rememberMe")} checked={formik.values.rememberMe} />}
               />
-              {captchaUrl&&[<img src={captchaUrl}/>,
+              {captchaUrl&&[<img src={captchaUrl} alt={'captcha'}/>,
              <TextField type="symbol" label="captcha" margin="normal" {...formik.getFieldProps("captcha")} />]}
 
               <Button
