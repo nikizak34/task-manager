@@ -5,9 +5,9 @@
       "axios": "axios/dist/node/axios.cjs"
     }
   },
-  "homepage": "https://nikizak34.github.io/task-manager",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nikizak34.github.io/task-manager",
   "dependencies": {
     "@babel/runtime": "^7.21.0",
     "@emotion/react": "^11.10.6",
